@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Spiceta | World of Spices</title>
+    <!-- Code for Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Code for Font Awesome CDN -->
+
+    <!-- For linking the CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Code for linking the CSS file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body style="background-color:bisque;">
+
+    <header class="header"  >
+        <a href="#" class="logo" style="margin-left:30px;"><img src="images/Logo.png" alt="Spiceta" class="logo"></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <!-- Cart items -->
+            <div>
+                <div class="box">
+                    <img src="images/Cart-Watermellon.webp">
+                    <div class="content">
+                        <i class="fa fa-trash"></i>
+                        <h3>Watermelon</h3>
+                        <span class="price">$5.99/-</span>
+                        <span class="quantity">Qty 1</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <img src="images/Cart-Raw-Chicken.jpg">
+                    <div class="content">
+                        <i class="fa fa-trash"></i>
+                        <h3>Chicken</h3>
+                        <span class="price">$5.99/-</span>
+                        <span class="quantity">Qty 1</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <img src="images/Cart-Onion.jpeg">
+                    <div class="content">
+                        <i class="fa fa-trash"></i>
+                        <h3>Onion</h3>
+                        <span class="price">$5.99/-</span>
+                        <span class="quantity">Qty 1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="total">total: $18.97/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        <form action="#" class="login-form">
+            <h3>Login now</h3>
+            <input type="email" placeholder="Your Email" class="box">
+            <input type="password" placeholder="Your Password" class="box">
+            <p>Forgot your password <a href="#"> click Here</a></p>
+            <p>Don't have an account  <a href="#"> click Here</a></p>
+            <input type="submit" value="Login now" class="btn">
+            
+        </form>
+    </header>
+    <!-- Banner Section -->
+    <section class="home" id="home" style="border-radius:20px;">
+        <div class="content" style="width:700px; height:300px; background-image: url('/images/spices-bg1.webp'); border-radius:12px; margin-right:600px; margin-bottom:250px; background-size: cover;">
+            <h3 style="padding-top:50px;">Fresh and <span>Organic</span> Products For You</h3>
+            <p>We bring organic farm-made and fresh spices that will burn your tastebuds with amazing flavour. The best spices for you.</p>
+
+
+            <a href="#" class="btn" style="margin-top:40px; color:aliceblue;">Shop now</a>
+        </div>
+    </section>
+    <!-- Banner Section -->    
+
+    <!-- Our Features Section -->
+    <section class="features" id="features">
+        <h1 class="heading"> our<span>features</span></h1>
+        <div class="box-container">
+            <div class="box" style="border-radius:20px;">
+                <img src="/images/chilly powder.png" alt="Watermellon">
+                <h3>Red Chilly Powder</h3>
+                <p> &#8377; 230. per 100grams</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box" style="border-radius:20px;" >
+                <img src="/images/turmeric.png" alt="Watermellon">
+                <h3>Turmeric Powder</h3>
+                <p>  &#8377; 200. per 100grams</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box" style="border-radius:20px;">
+                <img src="images/Watermellon.webp" alt="Watermellon">
+                <h3>Fresh and Organic</h3>
+                <p>Cardamom available for 100 Rs. The best offer in market.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+    <!-- Our Features Section -->
+
+    <!-- Our Products Section -->
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+
+        <div class="swiper product-slider" id="product-slider">
+            <div class="swiper-wrapper" id="wrapper">
+                <div class="swiper-slide box" id="box" style="border-radius:20px;">
+                    <img src="/images/chilly powder.png">
+                    <h1>Chilly Powder</h1>
+                    <div class="price">&#8377; 230.00 per 100grams</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+                <div class="swiper-slide box" style="border-radius:20px;" >
+                    <img src="/images/turmeric.png">
+                    <h1>Turmeric Powder</h1>
+                    <div class="price">&#8377; 190.00 per 100grams</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="/images/corriander.png">
+                    <h1>Garam Masala</h1>
+                    <div class="price">&#8377; 190.00 per 100grams</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="/images/cin.png">
+                    <h1>Cinnamon Powder</h1>
+                    <div class="price">&#8377; 290.00 per 100grams</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="/images/ss.png">
+                    <h1>Star Spice</h1>
+                    <div class="price">&#8377; 180.00 per 100grams</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="/images/cc.png">
+                    <h1>Coriander leaves</h1>
+                    <div class="price">&#8377; 100.00 per 100grams</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="swiper product-slider" id="product-slider">
+            <div class="swiper-wrapper" id="wrapper">
+                <div class="swiper-slide box" id="product-slider" style="border-radius:20px;">
+                    <img src="/images/bay_leaf.png.png">
+                    <h1>Bay Leaf</h1>
+                    <div class="price">&#8377; 29.40 per packet</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="/images/green matcha.png">
+                    <h1>Green Mactha Powder</h1>
+                    <div class="price">&#8377; 349.00 per bottle of 100grams</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="/images/green_chilly.png">
+                    <h1>Green Chilly</h1>
+                    <div class="price">&#8377; 12.00 per 100 grams</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="/images/red_chilly.png">
+                    <h1>Red Chilly</h1>
+                    <div class="price">&#8377; 15.00 per 100 grams</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="/images/capsicum.png">
+                    <h1>Capsicum</h1>
+                    <div class="price">&#8377; 53.09 for 500 grams</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="/images/pepper.png">
+                    <h1>Black Pepper</h1>
+                    <div class="price">&#8377; 65.00 per 100 grams</div>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- Our Products Section -->
+
+    <!-- Our Categories Section -->
+    <section class="categories" id="categories">
+        <h1 class="heading">Product <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box" style="border-radius:20px;" >
+                <img src="/images/powder.png" >
+                <h3>Powder Based Spices</h3>
+                <p>Upto 20% off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+            <div class="box" style="border-radius:20px;">
+                <img src="/images/Paste.png">
+                <h3>Paste Based Spices</h3>
+                <p>Upto 20% off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+            <div class="box" style="border-radius:20px;">
+                <img src="/images/cc.png">
+                <h3>Raw Spices</h3>
+                <p>Upto 20% off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Our Categories Section -->
+
+
+    <!-- Customer Reviews-->
+    <section class="review" id="review">
+        <h1 class="heading">Customer's Reviews</h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="images/Watermellon.webp">
+                    <p>I absolutely love Spiceta spices! The quality and freshness of their spices are unmatched. I've been using their products for a while now, and every dish I make with their spices turns out incredibly flavorful. From their aromatic cinnamon to their exotic curry blends, SpiceNest has become an essential part of my kitchen. Plus, the packaging is great for keeping the spices fresh for longer. Highly recommend!</p>
+                    <h3>John Deo</h3>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="images/Watermellon.webp">
+                    <p>I absolutely love Spiceta spices! The quality and freshness of their spices are unmatched. I've been using their products for a while now, and every dish I make with their spices turns out incredibly flavorful. From their aromatic cinnamon to their exotic curry blends, SpiceNest has become an essential part of my kitchen. Plus, the packaging is great for keeping the spices fresh for longer. Highly recommend!</p>
+                    <h3>John Deo</h3>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>                
+                </div>
+                <div class="swiper-slide box" style="border-radius:20px;">
+                    <img src="images/Watermellon.webp">
+                    <p>I absolutely love Spiceta spices! The quality and freshness of their spices are unmatched. I've been using their products for a while now, and every dish I make with their spices turns out incredibly flavorful. From their aromatic cinnamon to their exotic curry blends, SpiceNest has become an essential part of my kitchen. Plus, the packaging is great for keeping the spices fresh for longer. Highly recommend!</p>
+                    <h3>John Deo</h3>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Customer Reviews-->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+
+
+
+
+</html>
